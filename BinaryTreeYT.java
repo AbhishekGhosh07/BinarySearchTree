@@ -18,12 +18,12 @@ public class BinaryTreeYT{
             if(nodes[idex]==-1){
                 return null;
             }
-            Node newNode = new Node(nodes[idex]);
-            newNode.left = buildTree(nodes);
-            newNode.right = buildTree(nodes);
+            Node newN = new Node(nodes[idex]);
+            newN.left = buildTree(nodes);
+            newN.right = buildTree(nodes);
 
                 
-            return newNode;
+            return newN;
 
         }
     }
