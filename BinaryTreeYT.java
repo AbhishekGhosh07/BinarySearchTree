@@ -6,7 +6,7 @@ public class BinaryTreeYT{
         Node left;
         Node right;
         Node(int data){
-            data=data;
+            this.data=data;
             this.left=null;
             this.right = null;
         }
